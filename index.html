@@ -3,12 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Password Strength Checker</title>
+    <title>Password Strength Testing Tool</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Password Strength Checker</h1>
-    <input type="password" id="password" placeholder="Enter password">
-    <div id="strength"></div>
+    <div class="container">
+        <h1>Password Strength Testing Tool</h1>
+        <input type="password" id="password" placeholder="Enter your password" />
+        <div class="progress-bar">
+            <span id="progress-bar-fill"></span>
+        </div>
+        <div id="password-strength">Strength: Weak</div>
+        <div id="time-to-crack">Estimated time to crack: N/A</div>
+        
+        <!-- Notice about privacy -->
+        <div id="privacy-notice">
+            Entered password remains private to the user.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
-<script src="script.js"></script>

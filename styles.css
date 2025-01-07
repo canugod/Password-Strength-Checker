@@ -1,0 +1,120 @@
+/* General page setup */
+body {
+    background-color: #0d0d0d; /* Black background for dark look */
+    color: #fff; /* White text color for readability */
+    font-family: 'Arial', sans-serif; /* Simple and modern font */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Container styling */
+.container {
+    background-color: #1c1c1c; /* Slightly lighter black background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Header styling */
+h1 {
+    font-size: 2.5rem;
+    color: #fff; /* White text for plain title */
+    margin-bottom: 20px;
+}
+
+/* Password input field */
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: 2px solid #0099ff; /* Blue border */
+    border-radius: 5px;
+    background-color: #333; /* Dark background for the input */
+    color: #fff;
+    outline: none;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+/* Input field focus effect */
+input[type="password"]:focus {
+    border-color: #ff3333; /* Red border when focused */
+    box-shadow: 0 0 10px rgba(255, 51, 51, 0.7); /* Red glowing effect */
+}
+
+/* Password strength label */
+#password-strength {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff3333; /* Default red for weak strength */
+    margin-top: 10px;
+}
+
+/* Estimated Time to Crack label */
+#time-to-crack {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: normal;
+}
+
+/* Progress bar container */
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #555;
+    margin-top: 20px;
+}
+
+/* Dynamic progress bar fill */
+.progress-bar span {
+    display: block;
+    height: 100%;
+    width: 0;
+    border-radius: 5px;
+    transition: width 0.3s ease-in-out;
+}
+
+/* Color for strong and weak passwords */
+.weak {
+    color: #ff3333; /* Red for weak */
+}
+
+.fair {
+    color: #ff9933; /* Yellow for fair */
+}
+
+.good {
+    color: #ffcc00; /* Yellow-green for good */
+}
+
+.strong {
+    color: #33cc33; /* Green for strong */
+}
+
+.very-strong {
+    color: #00ccff; /* Blue for very strong */
+}
+
+/* Styling for footer with version number or additional text */
+footer {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-top: 20px;
+}
+
+/* Styling for the privacy notice */
+#privacy-notice {
+    font-size: 1rem;
+    color: #ccc;
+    margin-top: 20px;
+    font-style: italic;
+}
