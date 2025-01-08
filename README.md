@@ -22,6 +22,9 @@ This is a **Password Strength Testing Tool** built with **HTML**, **CSS**, and *
 
 ## How to Use
 
+Live Link:- https://www.password-strength-checker-seven.vercel.app
+
+
 1. Open the **index.html** file in a web browser.
 2. Enter a password in the password input field.
 3. View the strength of your password and an estimate of how long it would take to crack it.
