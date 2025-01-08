@@ -22,7 +22,7 @@ This is a **Password Strength Testing Tool** built with **HTML**, **CSS**, and *
 
 ## How to Use
 
-Live Link:- https://www.password-strength-checker-seven.vercel.app
+Live Link:- https://password-strength-checker-seven.vercel.app
 
 
 1. Open the **index.html** file in a web browser.
